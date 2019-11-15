@@ -7,8 +7,11 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 
 namespace Travel_Planner_WebAPP.Pages
 {
-    public class PrivacyModel : PageModel
+    public class AboutUsModel : PageModel
     {
+
+        public string Description { get; set; }
+
         public void OnGet()
         {
         }
